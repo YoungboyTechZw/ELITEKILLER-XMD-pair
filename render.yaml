@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: youngboy-pair-site
+    env: docker
+    plan: free
+    branch: main
+    repo: https://github.com/YoungboyTechZw/ELITEKILLER-XMD-pair
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
